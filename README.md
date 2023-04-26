@@ -36,7 +36,7 @@ This endpoint creates a new user and adds it to the database.
 - <b>Request Body:</b> Expects a JSON object containing user data
 - <b>Response:</b> Returns a message "User Saved" and status code 201 if the user was successfully created.
 
-## 2. GET, PUT, and DELETE to /api/:id
+## 2. GET, PUT, and DELETE to '/api/:id'
 
 This endpoint returns the user with the specified ID.
 
