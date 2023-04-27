@@ -66,9 +66,9 @@ This API uses the <b>'express.json()'</b> middleware to parse incoming requests 
 The user database is stored in a directory on a separete file called <b>'db.js'</b>. The file exports an array of user objects with the following properties:
 
 - <b>'id'</b> (number): A unique identifier for the user
-- <b>'name'</b> (string): The user's name
-- <b>'email'</b> (string): The user's email address
-- <b>'city'</b> (string): The user's city
+- <b>'login'</b> (string): The user's login on GitHub
+- <b>'avatar'</b> (string): The user's avatar on GitHub
+- <b>'url'</b> (string): The user's url on GitHub
 
 # Notes
 
