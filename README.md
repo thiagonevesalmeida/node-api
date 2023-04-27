@@ -15,6 +15,7 @@ To run this API on your local machine, please follow these instructions:
 This project has the following dependencies:
 
 - <b>'express'</b>: A Node JS web framework for building web applications.
+- <b>'cors'</b>: allows Cross-Origin Resource Sharing between different domains.
 - <b>'nodemon'</b> (devDependencies): A tool that helps to develop Node.js-based applications by automatically restarting the node application when file changes in the directory are detected.
 
 # API Endpoints
