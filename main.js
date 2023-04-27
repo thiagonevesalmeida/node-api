@@ -6,7 +6,7 @@ const app = express()
 
 app.listen(5500, () => console.log('Running on port 5500'))
 
-//Middleware
+app.use(cors())
 app.use(express.json())
 
 //GET & POST
