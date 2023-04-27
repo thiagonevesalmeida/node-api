@@ -31,14 +31,6 @@ app.route('/api/:id')
     if (!user) {
         return res.status(404).json("User Not Found")
     }
-
-    const isQuery = req?.query?.name || req?.query?.city
-
-    if (isQuery) {
-        const {name = user.name, city = user.city} = req.query
-        user.name = name
-        user.city = city
-    } 
     
     res.status(200).json(user)
 })
